@@ -106,7 +106,7 @@ if($lang == 'ru')
         <div class="col-md-12 center-block">
             <?php
                 if($type != "NONE") {
-                    echo '<div class="text-center"><img src="components/assets/img/vmt_finacom_logo.png"/></div>';
+                    echo '<div class="text-center"><img src="/brokerui/components/assets/img/vmt_finacom_logo.png"/></div>';
                 }
             ?>
         </div>
@@ -145,7 +145,7 @@ if($lang == 'ru')
                 <?php
                     if($status == "OK" || $status == "EXPIRED") {
                         echo '<div class="row">';
-                        echo '  <div class="text-center"><img src="components/assets/img/finacom_logo.png"/></div>';
+                        echo '  <div class="text-center"><img src="/brokerui/components/assets/img/finacom_logo.png"/></div>';
                         if($type == "FINACOM_APPROVED") {
                             echo '<div class="text-center" style="padding: 10px 20px;">'.$approved_str.'</div>';
                         } else if($type == "FINACOM_VERIFIED") {
