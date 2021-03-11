@@ -92,7 +92,7 @@ if($lang == 'ru')
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title><? echo $title ?></title>
+    <title><?php echo $title_str ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
